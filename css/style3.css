@@ -1,0 +1,110 @@
+/*CSS los colores de la paleta
+rgb(133, 91, 49)
+rgb(18, 17, 17)
+
+*/
+body {
+
+    background-image: url(/image/4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:hsl(330, 7%, 94%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#change{
+
+    background-color:rgb(133, 91, 49) ;
+    border-radius: 1rem;
+
+}
+
+#change:hover{
+background-color: white;
+}
+
+
+fieldset {
+    background: linear-gradient(rgb(18, 17, 17), rgb(133, 91, 49));
+    opacity: 0.8;
+    margin: 4rem;
+    border-radius: 1rem;
+    
+    -webkit-box-shadow: 4px 6px 33px 8px rgb(182, 135, 88); 
+    box-shadow: 4px 6px 33px 8px rgb(182, 135, 88);
+}
+
+
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.image1 img{
+    width: 30rem;
+    height: 30rem;
+}
+
+h1{
+    text-align: center;
+    color: hsl(330, 7%, 94%);
+}
+
+.image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image2 picture img{
+    width: 60rem;
+    height: 40rem;
+}
+
+.image2 div{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: white;
+    border-style: solid;
+}
+.image2 div img {
+    width: 2rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    fill: white;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    gap:3rem;
+    margin-bottom: 5rem;
+}
+
+
+.button button{
+    background-color: #212221;
+    border-radius: 1em;
+    border-color: antiquewhite;
+    color: white;
+
+}
+
+.button button:hover{
+    background-color: rgb(133, 91, 49);
+    color: black;
+}
